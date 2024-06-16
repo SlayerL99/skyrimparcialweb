@@ -1,0 +1,100 @@
+* {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#principal {
+    background-color: black;
+    width: 1280px;
+    margin: auto;
+}
+
+#banner {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#navbar, #subir, #info {
+    list-style-type: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+#navbar li, #subir li, #info li {
+    display: inline;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#navbar li a, #subir li a, #info li a, #info a {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size:25px;
+}
+
+#navbar li a:hover, #subir li a:hover, #info li a:hover {
+    color: goldenrod;
+}
+
+
+#inicio h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#sobre, #historia, #personajes, #facciones, #info {
+    padding: 20px 20px 20px;
+}
+
+#inicio img, #sobre img, #historia img, #personajes img, #facciones img, #info img {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+
+#sobre h2, #historia h2, #personajes h2, #personajes h3,  #facciones h2, #facciones h3, #info h2, #info h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#sobre p, #historia p, #personajes p, #facciones p, #info p {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#personajes h3, #facciones h3, #info h3 {
+    font-size: 40px;
+}
+
+#info h3 {
+    margin-top: 30px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
